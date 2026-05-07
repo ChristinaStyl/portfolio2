@@ -92,6 +92,7 @@ a.project-title{display: block;font-size: 24px;}
 .footer-menu {text-align: center;}
 a.menu-items{color: #fff;display: block;}
 a.menu-items:hover{background-image: linear-gradient(to right, var(--light), var(--dark));-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+a.menu-items.active{color: var(--light)}
 .footer-logo img{width: 200px;display: block;margin:20px auto;}
 .footer-info{text-align: center;display: block;}
 .footer-info img{width: 30px;margin-right: 10px;}
