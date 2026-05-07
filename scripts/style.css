@@ -88,12 +88,12 @@ a.project-title{display: block;font-size: 24px;}
 .gallery img{width: 100%;border: 2px solid;}
 .gallery a:hover{border: 2px solid var(--light)}
 
-.footer-wrap{background-color:#000;}
+.footer-wrap{background-color:#000;font-size: 18px;font-weight: bold;}
 .footer-menu {text-align: center;}
-a.menu-items{color: #fff;display: block;font-size: 18px;line-height: 1.5;}
+a.menu-items{color: #fff;display: block;}
 a.menu-items:hover{background-image: linear-gradient(to right, var(--light), var(--dark));-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
 .footer-logo img{width: 200px;display: block;margin:20px auto;}
-.footer-info{text-align: center;display: block;margin: 10px 0;}
+.footer-info{text-align: center;display: block;}
 .footer-info img{width: 30px;margin-right: 10px;}
 
 #scroll-top{position:fixed;bottom:90px;right:8px;display:none;width:50px;height:50px;padding-top:12px;border-radius:100%;border:2px solid #fff;z-index:3000;text-align:center;}
