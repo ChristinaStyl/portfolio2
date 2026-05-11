@@ -1,6 +1,4 @@
 $(document).ready(function() {
-	$('[data-toggle="tooltip"]').tooltip();
-
 	$(window).scroll(function() {
 		var windowScroll = $(this).scrollTop();
 		if ($(this).scrollTop() > 160) {
@@ -21,6 +19,7 @@ $(document).ready(function() {
 			}
 		});
 	});
+
 });
 
 function openInfo(evt, infoName) {
