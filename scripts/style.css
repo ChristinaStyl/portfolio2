@@ -50,7 +50,7 @@ a{color: #fff;font-weight: bold;text-decoration: none;}
 .header-wrap .logo img{width: 200px;margin: auto;display: block;padding: 40px 0;}
 
 
-.wrap {padding: 50px 0;border-bottom: 1px solid #4d4d4d;/*background:#000*/}
+.wrap {padding: 50px 0;/*border-bottom: 1px solid #4d4d4d;background:#000*/}
 .section-title {font-size: 40px;background-image: linear-gradient(to right, var(--light), var(--dark));-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
 .section-line {position: relative;display: block;width: 100%;height: 5px;margin: 5px 0 40px 0;}
 .section-line span {content: "";position: absolute;top: 1px;left: 0px;height: 4px;width: 120px;background-image: linear-gradient(to right, var(--light), var(--dark));}
