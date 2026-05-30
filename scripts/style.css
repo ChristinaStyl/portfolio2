@@ -15,7 +15,7 @@ body {margin: 0;padding: 0;overflow-y: scroll;min-width: 260px;font-size: 16px;l
 .t-justify {text-align: justify;}
 
 
-h1, h2, h3, h4, h5, h6 {margin-top: 0;margin-bottom: 0.8em;font-weight: 100;	line-height: 1.2;}
+h1, h2, h3, h4, h5, h6 {margin-top: 0;margin-bottom: 0.8em;font-weight: 100;line-height: 1.2;}
 h1 {font-size: 2.4em;}
 h2 {font-size: 1.9em;}
 h3 {font-size: 1.6em;}
@@ -138,14 +138,14 @@ a.menu-items.active{background-image: linear-gradient(to right, var(--light), va
     .project-block {display: flex;}
     .project-block.odd{border: 1px;border-top-style: solid;border-right-style: solid;padding: 80px 30px 80px 0;}
     .project-block.even{border: 1px;border-top-style: solid;border-left-style: solid;padding: 80px 0 80px 30px;}
-    .project-block.last{border: 1px solid;border-right-style: none;padding: 80px 0 80px 30px;}
+    .project-block.last{border: 1px solid;border-left-style: none;padding: 80px 0 80px 30px;}
     a.project-title{display: block;font-size: 34px;}
     .gallery{grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));grid-gap:15px;}
 }
 
 @media (min-width: 992px) {
     .tabcontent {min-height: 315px;}
-    .gallery{grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));grid-gap:30px;}
+    .gallery{grid-template-columns: repeat(auto-fit, minmax(95px, 1fr));grid-gap:5px;}
     .footer-logo img{margin:20px;}
     .footer-menu,.footer-info {text-align: left;}
     .footer-logo {text-align:left;}
