@@ -1,3 +1,23 @@
+const modal=document.getElementById("pdfModal");
+document.querySelector(".openPdf").onclick=function(e){
+	console.log('ok');
+    e.preventDefault();
+    modal.style.display="flex";
+}
+document.getElementById("closePdf").onclick=function(){
+    modal.style.display="none";
+}
+modal.onclick=function(e){
+    if(e.target===modal){
+        modal.style.display="none";
+    }
+}
+document.addEventListener("keydown",function(e){
+    if(e.key==="Escape"){
+        modal.style.display="none";
+    }
+});
+
 $(document).ready(function() {
 	$(window).scroll(function() {
 		var windowScroll = $(this).scrollTop();
@@ -35,3 +55,5 @@ function openInfo(evt, infoName) {
   document.getElementById(infoName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+/////////////////////////////////////////
