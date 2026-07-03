@@ -32,7 +32,7 @@ hr {background: #f7f7f9;border: none;clear: both;height: 1px;margin:auto;padding
 
 a{color: #fff;font-weight: bold;text-decoration: none;}
 a:hover{color: var(--light)}
-/* a:hover{background-image: linear-gradient(to right, var(--light), var(--dark));/* -webkit-background-clip: text; */-webkit-text-fill-color: transparent;text-decoration: none} */
+/* a:hover{background-image: linear-gradient(to right, var(--light), var(--dark)); -webkit-background-clip: text;-webkit-text-fill-color: transparent;text-decoration: none} */
 
 .menu{text-align: center;margin: 30px;}
 .menu a{padding: 0 20px;font-size: 20px;text-decoration: none;}
