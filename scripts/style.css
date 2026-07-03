@@ -31,10 +31,12 @@ ul, ol {margin: 10px 0 10px 30px;}
 hr {background: #f7f7f9;border: none;clear: both;height: 1px;margin:auto;padding: 0;width: 100%;margin: 10px }
 
 a{color: #fff;font-weight: bold;text-decoration: none;}
-a:hover{background-image: linear-gradient(to right, var(--light), var(--dark));/* -webkit-background-clip: text; */-webkit-text-fill-color: transparent;text-decoration: none}
+a:hover{color: var(--light)}
+/* a:hover{background-image: linear-gradient(to right, var(--light), var(--dark));/* -webkit-background-clip: text; */-webkit-text-fill-color: transparent;text-decoration: none} */
 
 .menu{text-align: center;margin: 30px;}
 .menu a{padding: 0 20px;font-size: 20px;text-decoration: none;}
+.menu a:hover{background-image: linear-gradient(to right, var(--light), var(--dark));-webkit-background-clip: text;-webkit-text-fill-color: transparent;text-decoration: none;}
 .menu a.active{background-image: linear-gradient(to right, var(--light), var(--dark));-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
 
 .header-wrap {background: url('../images/header-bg.jpg') 0 0 no-repeat;background-size: cover;height: 750px;background-position: center;}
