@@ -106,21 +106,6 @@ form.addEventListener("submit", function (e) {
     if (valid) {
         form.submit();
     }
-
-	// const response = await fetch(form.action, {
-    //     method: "POST",
-    //     body: new FormData(form),
-    //     headers: {
-    //         Accept: "application/json"
-    //     }
-    // });
-    // if (response.ok) {
-    //     alert("Your message has been sent successfully!");
-    //     form.reset();   // Καθαρίζει όλα τα πεδία
-    // } else {
-    //     alert("An error occurred. Please try again.");
-    // }
-
 });
 
 document.querySelectorAll("input, textarea").forEach(field => {
@@ -137,4 +122,12 @@ document.querySelectorAll("input, textarea").forEach(field => {
 
     });
 
+});
+
+window.addEventListener("pageshow", function () {
+    const navigation = performance.getEntriesByType("navigation");
+
+    if (navigation.length && navigation[0].type === "back_forward") {
+        window.location.reload();
+    }
 });
