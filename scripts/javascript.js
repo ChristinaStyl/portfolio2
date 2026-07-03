@@ -107,31 +107,19 @@ form.addEventListener("submit", function (e) {
         form.submit();
     }
 
-	const response = await fetch(form.action, {
-        method: "POST",
-        body: new FormData(form),
-        headers: {
-            Accept: "application/json"
-        }
-    });
-
-    if (response.ok) {
-
-        alert("Your message has been sent successfully!");
-
-        form.reset();   // Καθαρίζει όλα τα πεδία
-
-        // Αν θέλεις refresh:
-        // location.reload();
-
-        // Ή αν θέλεις να πας στην αρχή της σελίδας:
-        // window.location.href = "index.html";
-
-    } else {
-
-        alert("An error occurred. Please try again.");
-
-    }
+	// const response = await fetch(form.action, {
+    //     method: "POST",
+    //     body: new FormData(form),
+    //     headers: {
+    //         Accept: "application/json"
+    //     }
+    // });
+    // if (response.ok) {
+    //     alert("Your message has been sent successfully!");
+    //     form.reset();   // Καθαρίζει όλα τα πεδία
+    // } else {
+    //     alert("An error occurred. Please try again.");
+    // }
 
 });
 
