@@ -75,7 +75,9 @@ modal2.onclick = (e) => {
 };
 
 document.addEventListener("keydown", function(e){
+	console.log('ok');
     if(e.key === "Escape"){
         modal.style.display = "none";
+		modal2.style.display = "none";
     }
 });
