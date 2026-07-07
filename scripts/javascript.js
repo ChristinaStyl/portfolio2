@@ -1,24 +1,3 @@
-// const modal=document.getElementById("pdfModal");
-// document.querySelector(".openPdf").onclick=function(e){
-// 	console.log('ok');
-//     e.preventDefault();
-//     modal.style.display="flex";
-// }
-// document.getElementById("closePdf").onclick=function(){
-//     modal.style.display="none";
-// }
-// modal.onclick=function(e){
-//     if(e.target===modal){
-//         modal.style.display="none";
-//     }
-// }
-// document.addEventListener("keydown",function(e){
-//     if(e.key==="Escape"){
-//         modal.style.display="none";
-//     }
-// });
-
-
 $(document).ready(function() {
 	$(window).scroll(function() {
 		var windowScroll = $(this).scrollTop();
@@ -58,3 +37,45 @@ function openInfo(evt, infoName) {
   document.getElementById(infoName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+const modal = document.getElementById("sparks_image");
+const btn = document.getElementById("sparks_presentation");
+const close = document.querySelector(".close-btn");
+
+btn.onclick = () => {
+    modal.style.display = "flex";
+};
+
+close.onclick = () => {
+    modal.style.display = "none";
+};
+
+modal.onclick = (e) => {
+    if (e.target === modal) {
+        modal.style.display = "none";
+    }
+};
+
+const modal2 = document.getElementById("luna_image");
+const btn2 = document.getElementById("luna_presentation");
+const close2 = document.querySelector(".close-btn2");
+
+btn2.onclick = () => {
+    modal2.style.display = "flex";
+};
+
+close2.onclick = () => {
+    modal2.style.display = "none";
+};
+
+modal2.onclick = (e) => {
+    if (e.target === modal2) {
+        modal2.style.display = "none";
+    }
+};
+
+document.addEventListener("keydown", function(e){
+    if(e.key === "Escape"){
+        modal.style.display = "none";
+    }
+});
