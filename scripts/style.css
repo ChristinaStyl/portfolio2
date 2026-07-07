@@ -115,7 +115,7 @@ a.project-img:hover img{filter:none}
 #messageError{margin: -5px 0 18px}
 .invalid{border:1px solid #ff4d4d;}
 
-.footer-wrap{background-color:#000;font-size: 18px;font-weight: bold;background-repeat: no-repeat;background-position: top;    background-size: contain;}
+.footer-wrap{background-color:#000;font-size: 18px;font-weight: bold;/* background-repeat: no-repeat; */background-position: top;background-size: contain;height: 8px}
 .footer-menu {text-align: center;}
 .footer-menu .section-title{text-align: left;}
 a.menu-items{color: #fff;display: block;}
