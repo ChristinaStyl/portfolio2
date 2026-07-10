@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio - Christina Stylianou</title>
+    <link rel="shortcut icon" href="https://christinastyl.com/images/favicon.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="STYLIANOU CHRISTINA - PORTFOLIO">
+    <meta name="description" content="I am Christina, a creative electrical and computer engineer with a passion for creating beautiful websites.">
+
+    <meta property="og:url" content="https://christinastyl.com/"/>
+    <meta property="og:title" content="STYLIANOU CHRISTINA - PORTFOLIO"/>
+    <meta property="og:description" content="I am Christina, a creative electrical and computer engineer with a passion for creating beautiful websites."/>
+    <meta property="og:site_name" content="STYLIANOU CHRISTINA - PORTFOLIO"/>
+    <meta property="og:image" content="https://christinastyl.com/images/og_image.jpg"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <!-- <script src="https://kit.fontawesome.com/b0f29e9bfe.js" crossorigin="anonymous"></script> -->
+    <link  href="../scripts/style.css" rel="stylesheet"/>
+  </head>
+
+  <body>
+    <div class="header-wrap" id="top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <div class="mobile-menu-icon" id="icon-menu"><span class="sp1"></span><span class="sp2"></span><span class="sp3"></span></div>
+                    <div class="mobile-menu" id="mobile-menu">
+                        <a class="language-btn" href="/">EN</a>
+                        <a class="mobile-active" href="/gr/">Home</a>
+                        <a href="/gr/web">Web Development</a>
+                        <a href="/gr/graphic">Graphic Design</a>
+                        <a href="/gr/brand">Brand Identity & Web</a>
+                        <a href="/gr/contact">Contact</a>
+                     </div>
+                    <div class="menu">
+                         <a class="active" href="/gr/">Home</a>
+                         <a href="/gr/web">Web Development</a>
+                         <a href="/gr/graphic">Graphic Design</a>
+                         <a href="/gr/brand">Brand Identity & Web</a>
+                         <a href="/gr/contact">Contact</a>
+                     </div>
+                    <!-- <div class="logo">
+                        <img src="images/logo.png" alt="logo">
+                    </div> -->
+                </div>
+                <div class="col-md-1 hidden-xs hidden-sm">
+                    <a class="language-btn" href="/">EN</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="header-img">
+                        <img src="../images/header.png" alt="portfolio">
+                    </div>
+                </div>
+                <!-- <div class="col-md-6 ">
+                    <div class="header-title"><span>WEB</span><span>DEVELOPER</span></div>
+                    <div class="header-text">I am Christina, a creative <span>electrical and computer engineer</span> with a passion for creating beautiful <span>websites</span>.</div>
+                    <a class="button" href="#projects">VIEW MY WORK</a>
+                </div>
+                <div class="col-md-6 hidden-xs hidden-sm">
+                    <div class="header-img">
+                        <img src="images/header.png" alt="code">
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="scroll-target" id="personal-info"></div>
+    <div id="personal-info-wrap" class="personal-wrap wrap dot-menu-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">PERSONAL INFO</div>
+                    <div class="section-line"><span></span></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tab">
+                      <button class="tablinks active" onclick="openInfo(event, 'about')">About</button>
+                      <button class="tablinks" onclick="openInfo(event, 'educations')">Education</button>
+                      <button class="tablinks" onclick="openInfo(event, 'experience')">Experience</button>
+                      <button class="tablinks" onclick="openInfo(event, 'soft')">Soft skills</button>
+                    </div>
+
+                    <div id="about" class="tabcontent active">
+                      <h3>ABOUT</h3>
+                      <p>I’ m a web developer with more than 4 years of experience on building high performance, interactive web applications and user-friendly websites. I have experience in both Front and Back End development and I enjoy transforming a client’s idea into a personalized solution by considering their specific business’ needs while ensuring engaging and easy-to-use solutions for their customers.
+                          <br><br>Whether working solo or as part of a team, I always aim for writing clean, easy to understand code and stay up to date with the relevant tools and techniques while I’m constantly looking for opportunities to expand my horizons.</p>
+                    </div>
+
+                    <div id="educations" class="tabcontent">
+                      <h3>EDUCATION</h3>
+                      <p>I hold a 5-year diploma (equivalent to MEng) in Electrical and Computer Engineering from Democritus University of Thrace with a specialization in Electronic Engineering and Computer Science.
+                          <br><br>I aim for continuous learning and personal development. In particular, since my graduation I have attended several seminars such as SEO, Photoshop, Illustrator while most recently I’ve been attending a graphics design seminar in order to enhance my skills with which I can further improve user experience. </p>
+                      <!-- <p>I am an Electrical and Computer Engineer and in 2017 I obtained my diploma from the corresponding engineering school of the Democritus University of Thrace with my major being in Electronic Engineering and Computer Science.
+                         <br><br> After my graduation, I attended a series of various seminars in order to expand my studies in the field of Web Development. Now I attend a graphic design seminar in order to improve my skills such as combine colors harmonically, highlight important information and improve user experience</p> -->
+                    </div>
+
+                    <div id="experience" class="tabcontent">
+                      <h3>EXPERIENCE</h3>
+                      <p>As a Web Developer in <a href="https://media42.eu/">Media42</a> for the past three and a half years I was responsible for the implementation of websites (both Front and Back End) starting either from a graphics designer’s idea or completely from scratch. I was also responsible for creating editor pages for clients, where they could import and change their content as well as create and maintain their databases.
+                         <br><br>Additionally to web design I have experience in editing and creating logos as well as in image and video processing. During the design process I was actively participating in discussions with clients in order to ensure proper alignment and offer solutions that meet their needs.</p>
+                    </div>
+                    <div id="soft" class="tabcontent">
+                      <h3>SOFT SKILLS</h3>
+                      <p>I have experience in collaborating with Back End developers to integrate Front End code and vice versa, as well as graphic designers in order to transform their designs into code. Additionally, over the years I have gained experience in communicating solutions to customers as well as incorporating their feedback.<br><br>
+                      I ensure completion of projects in time and have the ability to work under hard deadlines and adapt to changing circumstances.</p>
+                      <!-- <p>I can collaborate with Back End developers to integrate Front End code and vice versa. Moreover, attending a graphic design seminar helps me to understand and read graphic designer's drafts as well as discuss it with them in order to transform it in code.
+                         <br><br>The nature of my deliverables in <a href="https://media42.eu/">Media42</a> were usually requiring to complete on time because of hard event deadlines. </p> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll-target" id="services"></div>
+    <div id="services-wrap" class="services-wrap wrap dot-menu-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">MY SERVICES</div>
+                    <div class="section-line"><span></span></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="services-box">
+                        <div class="service-title">FRONT END DEVELOPMENT</div>
+                        <div class="service-text">My approach focuses on creating responsive, accessible, functional, simple and user-friendly websites and web applications, using HTML, CSS and Javascript, both for users and business. I can design a website from scratch that match with the client or implement a graphics designer's idea with modern techniques.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-push-4">
+                    <div class="services-box">
+                        <div class="service-title">BACK END DEVELOPMENT</div>
+                        <div class="service-text">Thanks to my studies I learned to think like a programmer and I always enjoy opportunities for solving real-world problems, which led me to Back End development. I feel really comfortable Using PHP and I can push things forward for completing a project.  I focus on writing clean, efficient and maintainable code. </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="services-box">
+                        <div class="service-title">WORDPRESS DEVELOPMENT</div>
+                        <div class="service-text">A WordPress developer needs a strong understanding of HTML, CSS, PHP, and JavaScript in order to accurately portray the desired design. Thanks to my expirience as a developer, I acquired the previous mention skills, thus I can build simple or complex WooCommerce websites on WordPress, using custom WordPress themes, plugins or forms from scratch, with a focus on performance, SEO and easy content management.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-push-4">
+                    <div class="services-box">
+                        <div class="service-title">GRAPHIC DESIGN</div>
+                        <div class="service-text">Thanks to my studies I learned to think like a programmer and I always enjoy opportunities for solving real-world problems, which led me to Back End development. I feel really comfortable Using PHP and I can push things forward for completing a project.  I focus on writing clean, efficient and maintainable code. </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll-target" id="skills"></div>
+    <div id="skills-wrap" class="skills-wrap wrap dot-menu-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">SKILLS</div>
+                    <div class="section-line"><span></span></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="reference">The skills, tools and technologies I use:</div>
+                </div>
+                <div class="col-md-12">
+                    <div class="skills-images">
+                        <img class="skill-img" src="../images/skills/html.png" alt="HTML">
+                        <img class="skill-img" src="../images/skills/css.png" alt="CSS">
+                        <img class="skill-img" src="../images/skills/bootstrap.png" alt="Bootstrap">
+                        <img class="skill-img" src="../images/skills/js.png" alt="JS">
+                        <img class="skill-img" src="../images/skills/jquery.png" alt="jQuery">
+                        <img class="skill-img" src="../images/skills/php.png" alt="PHP">
+                        <img class="skill-img" src="../images/skills/mysql.png" alt="MySQL">
+                        <img class="skill-img" src="../images/skills/wordpress.png" alt="WordPress">
+                        <img class="skill-img" src="../images/skills/seo.png" alt="SEO">
+                        <img class="skill-img" src="../images/skills/ui.png" alt="UX and UI Design">
+                        <img class="skill-img" src="../images/skills/responsive.png" alt="Responsive Design">
+                        <img class="skill-img" src="../images/skills/api.png" alt="API">
+                        <img class="skill-img" src="../images/skills/amazon.png" alt="Amazon Web Services">
+                        <img class="skill-img" src="../images/skills/photoshop.png" alt="Photoshop">
+                        <img class="skill-img" src="../images/skills/illustrator.png" alt="Illustrator">
+                        <img class="skill-img" src="../images/skills/indesign.png" alt="InDesign">
+                        <img class="skill-img" src="../images/skills/openshot.png" alt="OpenShot Video Editor">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-wrap" style="background-image: url(.//images/pattern.png)">
+        <!-- <img class"footer-pattern" src="images/pattern.png" alt="pattern"> -->
+        <div class="container">
+            <div class="bottom-wrap wrap">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="footer-logo">
+                            <img src="../images/logo.png" alt="logo">
+                            <a href="https://www.linkedin.com/in/christina-stylianou-a5b289153/" target="_blank" class="footer-social" style="background-image: url(../images/linkedin.png)"></a>
+                            <a href="#" target="_blank" class="footer-social" style="background-image: url(../images/instagram.png)"></a>
+                            <a href="#" target="_blank" class="footer-social" style="background-image: url(../images/behance.png)"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-menu">
+                            <div class="section-title">NAVIGATION</div>
+                            <div class="section-line"><span></span></div>
+                            <a class="menu-items active" href="/gr/">Home</a>
+                            <a class="menu-items" href="/gr/web">Web Development</a>
+                            <a class="menu-items" href="/gr/graphic">Graphic Design</a>
+                            <a class="menu-items" href="/gr/brand">Brand Identity & Web</a>
+                            <a class="menu-items" href="/gr/contact">Contact</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="section-title">INFO</div>
+                        <div class="section-line"><span></span></div>
+                        <a href="mailto:chris.d.stylianou@gmail.com" target="_blank" class="footer-info"><img src="../images/email.png" alt="email"> chris.d.stylianou@gmail.com</a>
+                        <div class="footer-info"><img src="../images/location.png" alt="location"> Eindhoven, The Netherlands</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <p class="t-center" id="copyright">©2026 Christina Stylianou</p>
+            </div>
+        </div>
+    </div>
+    <a href="#top" id="scroll-top" class="scroller tp" title="BACK TO TOP" ><span></span></a>
+
+    <!-- <div id="dot-menu">
+        <a data-toggle="tooltip" title="PERSONAL INFO" class="scroller dot-menu-item-link normal" id="dmi-personal-info-wrap" href="#personal-info"></a>
+        <a data-toggle="tooltip" title="MY SERVICES" class="scroller dot-menu-item-link normal" id="dmi-services-wrap" href="#services"></a>
+        <a data-toggle="tooltip" title="SKILLS" class="scroller dot-menu-item-link normal" id="dmi-skills-wrap" href="#skills"></a>
+        <a data-toggle="tooltip" title="PROJECTS" class="scroller dot-menu-item-link normal" id="dmi-projects-wrap" href="#projects"></a>
+    </div> -->
+
+    <script src="../scripts/javascript.js"></script>
+  </body>
+</html>
