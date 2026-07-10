@@ -23,6 +23,13 @@ $(document).ready(function() {
 });
 
 
+const burger = document.getElementById("icon-menu");
+const mobileMenu = document.getElementById("mobile-menu");
+
+burger.addEventListener("click", () => {
+	burger.classList.toggle("active");
+	mobileMenu.classList.toggle("active");
+});
 
 function openInfo(evt, infoName) {
   var i, tabcontent, tablinks;
