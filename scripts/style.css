@@ -34,6 +34,8 @@ a{color: #fff;font-weight: bold;text-decoration: none;}
 a:hover{color: var(--light)}
 /* a:hover{background-image: linear-gradient(to right, var(--light), var(--dark)); -webkit-background-clip: text;-webkit-text-fill-color: transparent;text-decoration: none} */
 
+a.language-btn {display: block;text-align: right;font-size: 20px;text-decoration: none;}
+a.language-btn:hover {background-image: linear-gradient(to right, var(--light), var(--dark));-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
 .menu{text-align: center;margin: 30px;display: none}
 .menu a{padding: 0 20px;font-size: 20px;text-decoration: none;}
 .menu a:hover{background-image: linear-gradient(to right, var(--light), var(--dark));-webkit-background-clip: text;-webkit-text-fill-color: transparent;text-decoration: none;}
@@ -46,7 +48,7 @@ a:hover{color: var(--light)}
 .mobile-menu-icon span.sp1 {top: 5px;}
 .mobile-menu {display: none;position: absolute;padding: 20px 30px;background: rgba(0,0,0,0.9);z-index: 10000;right: 0px;top: 86px;box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);transition:0.5s;}
 .mobile-menu.active{display: block;}
-.mobile-menu a {display: block;text-align: end;font-size: 21px;color: #fff;}
+.mobile-menu a {display: block;text-align: end;font-size: 20px;color: #fff;}
 .mobile-menu a:hover {text-decoration: none;color: var(--light)}
 .mobile-menu-icon.active span:nth-child(1){transform:rotate(45deg) translate(7px,7px);}
 .mobile-menu-icon.active span:nth-child(2){opacity:0;}
@@ -160,7 +162,7 @@ a.menu-items.active{background-image: linear-gradient(to right, var(--light), va
 
 
 @media (min-width: 428px){
-    .header-wrap {height: 480px;}
+    .header-wrap {height: 330px;}
 }
 
 @media (min-width: 768px){
@@ -179,6 +181,7 @@ a.menu-items.active{background-image: linear-gradient(to right, var(--light), va
 
 @media (min-width: 992px) {
     .header-wrap {height: 750px;}
+    a.language-btn {margin: 30px 0;}
     .menu{display: block;margin-right: -30px;}
     .mobile-menu-icon{display: none}
     .tabcontent {min-height: 315px;}
