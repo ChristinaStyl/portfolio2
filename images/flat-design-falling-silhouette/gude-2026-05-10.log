@@ -1,3 +1,0 @@
-19:12:15:951 [CRITICAL]	SharedConnection - Failed to open WinHTTP Session. Η παράμετρος είναι εσφαλμένη.
-, last error code = 87 
-19:12:15:952 [ERROR]	Failed to Configure Secure Protocols. WinHTTP Incorrect Handle Type. last error code = 12018 
