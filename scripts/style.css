@@ -39,7 +39,7 @@ a.language-btn:hover {background-image: linear-gradient(to right, var(--light), 
 .menu{text-align: center;margin: 30px;display: none}
 .menu a{padding: 0 20px;font-size: 20px;text-decoration: none;}
 .menu a:hover{background-image: linear-gradient(to right, var(--light), var(--dark));-webkit-background-clip: text;-webkit-text-fill-color: transparent;text-decoration: none;}
-.menu a.active{background-image: linear-gradient(to right, var(--light), var(--dark));-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+.menu a.active{font-size: 23px;/*color:var(--light); */  background-image: linear-gradient(to right, var(--light), var(--dark));-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
 
 .mobile-menu-icon {display: inline-block;position: absolute;width: 30px;height: 35px;margin-bottom: -25px;right: 10px;top: 40px;cursor: pointer;z-index: 10000}
 .mobile-menu-icon span {display: block;position: absolute;top: 0;height: 3px;width: 100%;background:#fff;transition: 0.3s;}
@@ -137,16 +137,17 @@ a.project-img:hover img{filter:none}
 .footer-wrap{background-color:#000;font-size: 18px;font-weight: bold;/* background-repeat: no-repeat; */background-position: top;background-size: contain;height: 8px}
 .footer-menu{display: none;}
 .footer-menu .section-title{text-align: left;}
-a.menu-items{color: #fff;display: block;}
+a.menu-items{color: #fff;display: block;width:fit-content}
 a.menu-items:hover, a.footer-info:hover{background-image: linear-gradient(to right, var(--light), var(--dark));-webkit-background-clip: text;-webkit-text-fill-color: transparent;text-decoration: none;}
 a.menu-items.active{background-image: linear-gradient(to right, var(--light), var(--dark));-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
 .footer-logo {text-align:center;}
+.footer-logo a.logo{display: block;height: auto;}
 .footer-logo img{width: 120px;display: block;margin:20px auto;}
 .footer-logo a{display: inline-block;}
 .footer-logo a{width: 40px;height: 40px;background-position: top;background-size: cover;margin: 10px;}
 .footer-logo a:hover{background-position: bottom;}
 /* .footer-logo .footer-info img {width: 40px;margin: 10px;} */
-.footer-info{display: block;}
+.footer-info{display: block;width: fit-content;}
 .footer-info img{width: 30px;margin-right: 10px;}
 .footer-wrap .section-title {font-size: 20px}
 .footer-wrap .section-line span {height: 3px;width: 40px;}
