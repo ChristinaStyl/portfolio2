@@ -27,7 +27,8 @@ b, strong {font-weight: bold;}
 
 p {padding: 0 0 10px 0;margin: 0;}
 /* p {-webkit-user-select: none;-webkit-touch-callout: none; -moz-user-select: none;-ms-user-select: none;user-select: none;} */
-ul, ol {margin: 10px 0 10px 30px;}
+ul, ol {margin: 0px 0 10px 0px;}
+ul {list-style-type: square;}
 hr {background: #f7f7f9;border: none;clear: both;height: 1px;margin:auto;padding: 0;width: 100%;margin: 10px 0;}
 
 a{color: #fff;font-weight: bold;text-decoration: none;}
@@ -90,7 +91,10 @@ a.language-btn:hover {background-image: linear-gradient(to right, var(--light), 
 .tab button:hover {background-color: #3c3c3d;}
 .tab button.active {background-image: linear-gradient(to right, var(--light), var(--dark));text-decoration: none;color: #fff;}
 .tabcontent {display: none;padding: 20px 12px 6px;border: 1px solid #4d4d4d;border-top: none;min-height: 640px;}
+.tabcontent p{line-height: 1.5}
 .tabcontent.active{display: block;}
+#soft li {list-style: none;}
+#soft  li::before {content: '';display: inline-block;height: 12px;width: 15px;background-image: url(../images/check.png);background-repeat: no-repeat;background-size: cover;margin-right: 5px;}
 
 .projects-wrap{background-color: var(--grey)}
 .reference {display: block;margin-bottom: 50px;font-size: 22px;font-style: italic;text-align: center;line-height: 1.5;}
@@ -166,12 +170,13 @@ a.menu-items.active{background-image: linear-gradient(to right, var(--light), va
 
 @media (min-width: 428px){
     .header-wrap {height: 330px;}
+    .tabcontent {min-height: 590px;}
 }
 
 @media (min-width: 768px){
     .header-wrap {height: 480px;}
     .tab button {padding: 14px 16px;}
-    .tabcontent {min-height: 350px;}
+    .tabcontent {min-height: 375px;}
     .project-block {display: flex;}
     .project-block.odd{border: 1px;border-top-style: solid;border-right-style: solid;padding: 80px 30px 80px 0;}
     .project-block.even{border: 1px;border-top-style: solid;border-left-style: solid;padding: 80px 0 80px 30px;}
@@ -188,7 +193,7 @@ a.menu-items.active{background-image: linear-gradient(to right, var(--light), va
     a.language-btn {margin: 30px 0;width: fit-content;float: right;}
     .menu{display: block;margin-right: -30px;}
     .mobile-menu-icon{display: none}
-    .tabcontent {min-height: 315px;}
+    .tabcontent {min-height: 335px;}
     .gallery{grid-template-columns: repeat(auto-fit, minmax(95px, 1fr));grid-gap:5px;}
     .footer-logo img{margin:20px;}
     .footer-menu{display: block;}
@@ -198,5 +203,5 @@ a.menu-items.active{background-image: linear-gradient(to right, var(--light), va
 
 
 @media (min-width: 1200px) {
-    .tabcontent {min-height: 290px;}
+    .tabcontent {min-height: 335px;}
 }
