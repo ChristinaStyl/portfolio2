@@ -38,7 +38,7 @@ a:hover{color: var(--light)}
 a.language-btn {display: block;text-align: right;font-size: 20px;text-decoration: none;}
 a.language-btn:hover {background-image: linear-gradient(to right, var(--light), var(--dark));-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
 .menu{text-align: center;margin: 30px;display: none}
-.menu a{padding: 0 20px;font-size: 20px;text-decoration: none;}
+.menu a{padding: 0 16px;font-size: 20px;text-decoration: none;}
 .menu a:hover{background-image: linear-gradient(to right, var(--light), var(--dark));-webkit-background-clip: text;-webkit-text-fill-color: transparent;text-decoration: none;}
 .menu a.active{font-size: 23px;/*color:var(--light); */  background-image: linear-gradient(to right, var(--light), var(--dark));-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
 
