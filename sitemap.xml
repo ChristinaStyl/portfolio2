@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <!-- Landing -->
+    <url>
+        <loc>https://christinastyl.com/</loc>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- English -->
+    <url>
+        <loc>https://christinastyl.com/en/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://christinastyl.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://christinastyl.com/gr/"/>
+    </url>
+
+    <url>
+        <loc>https://christinastyl.com/en/web.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://christinastyl.com/en/web.html"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://christinastyl.com/gr/web.html"/>
+    </url>
+
+    <url>
+        <loc>https://christinastyl.com/en/graphic.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://christinastyl.com/en/graphic.html"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://christinastyl.com/gr/graphic.html"/>
+    </url>
+
+    <url>
+        <loc>https://christinastyl.com/en/brand.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://christinastyl.com/en/brand.html"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://christinastyl.com/gr/brand.html"/>
+    </url>
+
+    <url>
+        <loc>https://christinastyl.com/en/contact.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://christinastyl.com/en/contact.html"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://christinastyl.com/gr/contact.html"/>
+    </url>
+
+    <!-- Greek -->
+    <url>
+        <loc>https://christinastyl.com/gr/</loc>
+        <xhtml:link rel="alternate" hreflang="el" href="https://christinastyl.com/gr/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://christinastyl.com/en/"/>
+    </url>
+
+    <url>
+        <loc>https://christinastyl.com/gr/web.html</loc>
+        <xhtml:link rel="alternate" hreflang="el" href="https://christinastyl.com/gr/web.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://christinastyl.com/en/web.html"/>
+    </url>
+
+    <url>
+        <loc>https://christinastyl.com/gr/graphic.html</loc>
+        <xhtml:link rel="alternate" hreflang="el" href="https://christinastyl.com/gr/graphic.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://christinastyl.com/en/graphic.html"/>
+    </url>
+
+    <url>
+        <loc>https://christinastyl.com/gr/brand.html</loc>
+        <xhtml:link rel="alternate" hreflang="el" href="https://christinastyl.com/gr/brand.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://christinastyl.com/en/brand.html"/>
+    </url>
+
+    <url>
+        <loc>https://christinastyl.com/gr/contact.html</loc>
+        <xhtml:link rel="alternate" hreflang="el" href="https://christinastyl.com/gr/contact.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://christinastyl.com/en/contact.html"/>
+    </url>
+
+</urlset>

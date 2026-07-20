@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://christinastyl.com/sitemap.xml

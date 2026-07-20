@@ -22,7 +22,29 @@ $(document).ready(function() {
 
 });
 
+/////////////meta
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Christina Stylianou",
+  "url": "https://christinastyl.github.io/portfolio2/",
+  "jobTitle": "Freelance Web Developer & Graphic Designer",
+  "description": "Freelance Web Developer & Graphic Designer specializing in web development, branding and UI/UX.",
+  "sameAs": [
+	  "https://www.linkedin.com/in/christina-stylianou-a5b289153/",
+	  "https://www.instagram.com/christinastyl_",
+	  "https://www.behance.net/christinastyl"  
+  ]
+};
 
+const script = document.createElement("script");
+script.type = "application/ld+json";
+script.textContent = JSON.stringify(schema);
+
+document.head.appendChild(script);
+
+
+/////////////burger menu
 const burger = document.getElementById("icon-menu");
 const mobileMenu = document.getElementById("mobile-menu");
 
